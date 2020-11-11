@@ -1,0 +1,2038 @@
+{
+    "report": {
+        "type": null,
+        "metadata": {
+            "authorId": "zp8h8",
+            "businessIssue": null,
+            "createdOn": 1604460074842,
+            "description": "",
+            "favId": null,
+            "id": "99c7bd80be64067f:-4bc09fc7:1758c2dbf5a:1d51",
+            "isUnifyTemplate": true,
+            "lastUpdatedOn": 1604462275966,
+            "modelId": 1100,
+            "objCollectionId": null,
+            "tags": [],
+            "thumbnail": "~/default_thumbnail/DefaultThumbnail_Pie.jpg",
+            "title": "Pie Chart",
+            "views": 0,
+            "type": "report",
+            "isAsync": true,
+            "cached": null,
+            "isEditable": "false",
+            "modifiedBy": null,
+            "localeIds": null,
+            "storyReportId": null,
+            "lastUpdatedBy": "zp8h8",
+            "lastExecutedOn": 0,
+            "authorName": "zp8h8",
+            "modifiedAuthorName": "zp8h8",
+            "pageId": null,
+            "scope": "Public",
+            "pagesDetail": null,
+            "usedInStory": null,
+            "chartCount": 0,
+            "linkedDimensions": null,
+            "isAsymmetric": true,
+            "modelName": "TSV_WB",
+            "isConfigured": false,
+            "reportId": "99c7bd80be64067f:-4bc09fc7:1758c2dbf5a:1d3d",
+            "isProgressiveReport": false,
+            "progressiveReport": false,
+            "progressiveDimensions": null,
+            "reportPartOfStoriesCount": 0,
+            "collectionName": null,
+            "isWspScheduled": false,
+            "background": {
+                "color": "",
+                "imageURL": "",
+                "opacity": 100,
+                "margin": 0
+            },
+            "margin": 0,
+            "advanceRuleDims": null,
+            "vizThumbnails": null
+        },
+        "errorMessage": null,
+        "notes": null,
+        "favoriteInDesk": false,
+        "favReportPath": null,
+        "runTimeOptions": null,
+        "exitCode": null,
+        "preferences": {
+            "fitToScreen": false,
+            "hideTitle": false,
+            "linkedReport": false,
+            "hideStoryTitle": false,
+            "backgroundDetails": null,
+            "visualizerConfig": null
+        },
+        "linkedDimensions": null,
+        "clientId": 0,
+        "commentDetails": null,
+        "gridMemberDefs": [
+            {
+                "dimName": "Product",
+                "dispDimName": "Product",
+                "members": [
+                    {
+                        "type": "childMember",
+                        "uid": "R1",
+                        "id": ":Department:4527492:3506929:3506881",
+                        "name": "GENERAL FOOD",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-GENERAL FOOD",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    },
+                    {
+                        "type": "childMember",
+                        "uid": "R2",
+                        "id": ":Department:4527492:3507060:3506881",
+                        "name": "REFRIGERATED",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-REFRIGERATED",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    },
+                    {
+                        "type": "childMember",
+                        "uid": "R3",
+                        "id": ":Department:4527492:3506762:3506881",
+                        "name": "BEVERAGES",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-BEVERAGES",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    },
+                    {
+                        "type": "childMember",
+                        "uid": "R4",
+                        "id": ":Department:4527492:3506930:3506999",
+                        "name": "GENERAL MERCHANDISE",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-GENERAL MERCHANDISE",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    },
+                    {
+                        "type": "childMember",
+                        "uid": "R5",
+                        "id": ":Department:4527492:3507122:3506999",
+                        "name": "TOBACCO",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-TOBACCO",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    },
+                    {
+                        "type": "childMember",
+                        "uid": "R6",
+                        "id": ":Department:4527492:3506945:3506999",
+                        "name": "HEALTH",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HEALTH",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    },
+                    {
+                        "type": "childMember",
+                        "uid": "R7",
+                        "id": ":Department:4527492:3506915:3506881",
+                        "name": "FROZEN",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-FROZEN",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    },
+                    {
+                        "type": "childMember",
+                        "uid": "R8",
+                        "id": ":Department:4527492:3506975:3506881",
+                        "name": "LIQUOR",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-LIQUOR",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    },
+                    {
+                        "type": "childMember",
+                        "uid": "R9",
+                        "id": ":Department:4527492:3506760:3506999",
+                        "name": "BEAUTY",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-BEAUTY",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    },
+                    {
+                        "type": "childMember",
+                        "uid": "R10",
+                        "id": ":Department:4527492:3506947:3506999",
+                        "name": "HOME CARE",
+                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HOME CARE",
+                        "level": "Department",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "collapsed",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    }
+                ],
+                "attribute": false
+            },
+            {
+                "dimName": "Measures",
+                "dispDimName": "Measures",
+                "members": [
+                    {
+                        "type": "childMember",
+                        "uid": "C1",
+                        "id": "!M2_1",
+                        "name": "Dollar Sales",
+                        "fullPath": "Measures.Sales : FOLDER.Dollar Sales",
+                        "level": null,
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "NA",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    }
+                ],
+                "attribute": false
+            },
+            {
+                "dimName": "Causal",
+                "dispDimName": "Causal",
+                "members": [
+                    {
+                        "type": "childMember",
+                        "uid": "C2",
+                        "id": ":Level1:71392",
+                        "name": "Total",
+                        "fullPath": "Causal.Causal Permutations.Total",
+                        "level": "Level1",
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "NA",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    }
+                ],
+                "attribute": false
+            },
+            {
+                "dimName": "Periodicity",
+                "dispDimName": "Periodicity",
+                "members": [
+                    {
+                        "type": "childMember",
+                        "uid": "C3",
+                        "id": "1226",
+                        "name": "Current",
+                        "fullPath": "Periodicity.Periodicity : FOLDER.Current",
+                        "level": null,
+                        "dimensionName": null,
+                        "dispDimName": null,
+                        "indent": 0,
+                        "status": "NA",
+                        "isCustomObject": false,
+                        "style": null,
+                        "isSelected": null,
+                        "type": null,
+                        "functionName": null,
+                        "customCalculation": null,
+                        "timeAggregate": null,
+                        "members": null,
+                        "hierarchicalAttrValues": null,
+                        "newName": null
+                    }
+                ],
+                "attribute": false
+            }
+        ],
+        "cellPropsConfig": null,
+        "data": {
+            "R1;C1;C2;C3": {
+                "val": "192002933243.48447",
+                "fmtdval": "$192,002,933,243",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            },
+            "R2;C1;C2;C3": {
+                "val": "104717106579.5041",
+                "fmtdval": "$104,717,106,580",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            },
+            "R3;C1;C2;C3": {
+                "val": "91270723528.52205",
+                "fmtdval": "$91,270,723,529",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            },
+            "R4;C1;C2;C3": {
+                "val": "76296311881.39369",
+                "fmtdval": "$76,296,311,881",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            },
+            "R5;C1;C2;C3": {
+                "val": "72763951305.05069",
+                "fmtdval": "$72,763,951,305",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            },
+            "R6;C1;C2;C3": {
+                "val": "62998590694.56727",
+                "fmtdval": "$62,998,590,695",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            },
+            "R7;C1;C2;C3": {
+                "val": "59915708046.84683",
+                "fmtdval": "$59,915,708,047",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            },
+            "R8;C1;C2;C3": {
+                "val": "55799559865.29258",
+                "fmtdval": "$55,799,559,865",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            },
+            "R9;C1;C2;C3": {
+                "val": "36792561260.76187",
+                "fmtdval": "$36,792,561,261",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            },
+            "R10;C1;C2;C3": {
+                "val": "26580195984.94884",
+                "fmtdval": "$26,580,195,985",
+                "fmt": "$#,##0",
+                "type": "int",
+                "cellProps": null
+            }
+        },
+        "visualizerConfig": {
+            "chartLayout": "OneCellTemplate",
+            "visLayout": {
+                "template": "",
+                "coordinates": [
+                    {
+                        "width": "1",
+                        "height": "1",
+                        "left": "0",
+                        "top": "0",
+                        "index": ""
+                    }
+                ],
+                "splitter": []
+            },
+            "gridOptions": {
+                "columnTitle": "true",
+                "rowTitle": "true",
+                "expandCollapse": "true",
+                "displayBanding": "false",
+                "parentPosition": "1",
+                "mergedDimensionsOnColumn": null,
+                "mergedDimensionsOnRow": null,
+                "showAttributesafterMeasures": "false",
+                "disableGridActions": "false",
+                "allowIndexing": false,
+                "hideInnerBorder": false,
+                "outerBorderWidth": 0,
+                "indent": "true",
+                "rowIndent": "2",
+                "generationStyles": "none",
+                "preserveHierarchy": true,
+                "fontType": "proxima-nova",
+                "fontSize": 14.0,
+                "fontColor": "#000",
+                "applyMemberColorToForeGround": false,
+                "textExpression": null,
+                "text": null,
+                "expressionValueMap": null,
+                "missingRows": "true",
+                "missingColumns": "false",
+                "zeroes": "true",
+                "errors": "true",
+                "customProperties": "{\"fontSettings\":{\"fontColor\":\"\",\"fontType\":\"proxima-nova\",\"headerColor\":\"\",\"headerFontColor\":\"\",\"alternativeRowsColor\":\"\"},\"columnSettings\":{\"titleAlign\":\"0\"}}"
+            },
+            "visualizers": [
+                {
+                    "type": "pieChart",
+                    "textPaneData": null,
+                    "customVisualizer": null,
+                    "customData": null,
+                    "contentVizData": null,
+                    "evaluatedContentVizData": null,
+                    "httpImageUrl": null,
+                    "runTimeVisIndex": 0,
+                    "chartErrorMessage": null,
+                    "chartArea": {
+                        "multiTone": false,
+                        "color1": "FFFFFF",
+                        "color2": null,
+                        "mixOrientation": null,
+                        "position1": null,
+                        "position2": null,
+                        "backgroundColor": "FFFFFF"
+                    },
+                    "gridlinesConfig": {
+                        "barWidth": "",
+                        "displayGridlines": "true",
+                        "gridLineOption": "",
+                        "displayBorder": "true",
+                        "gridLineType": "",
+                        "displayChartComments": "false"
+                    },
+                    "title": {
+                        "fontType": "proxima-nova",
+                        "fontStyle": "",
+                        "fontSize": "16",
+                        "fontColor": "",
+                        "text": "Share of Wallet",
+                        "placement": "",
+                        "textExpression": "Share of Wallet",
+                        "expressionValueMap": {}
+                    },
+                    "caption": {
+                        "fontType": "",
+                        "fontStyle": "Bold",
+                        "fontSize": "8",
+                        "fontColor": "000000",
+                        "text": "",
+                        "placement": "center",
+                        "textExpression": "",
+                        "expressionValueMap": {}
+                    },
+                    "dataSeries": {
+                        "displayBorder": "false",
+                        "displayMarkers": "false",
+                        "displayMouseOver": "true",
+                        "groupSmallerValues": true,
+                        "groupAllValues": 0.0,
+                        "marker": "",
+                        "pullOut": false,
+                        "title": {
+                            "fontType": null,
+                            "fontStyle": null,
+                            "fontSize": null,
+                            "fontColor": null,
+                            "text": "Other",
+                            "placement": null,
+                            "textExpression": null,
+                            "expressionValueMap": null
+                        },
+                        "color": {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "mixOrientation": null,
+                            "position1": null,
+                            "position2": null
+                        },
+                        "adjustmentBaseColor": {},
+                        "dataLabel": {
+                            "displayLabels": "true",
+                            "labelOrientation": "",
+                            "fontStyle": "Regular",
+                            "fontSize": "8",
+                            "fontColor": "000000",
+                            "fontType": null,
+                            "displayTotal": "true",
+                            "totalOrientaion": "horizontal",
+                            "placement": "",
+                            "displaySeriesName": false,
+                            "bestFit": "",
+                            "titleFontStyle": null,
+                            "titleFontSize": null,
+                            "titleFontColor": null,
+                            "inside": "false",
+                            "rotate": "",
+                            "distance": "20",
+                            "showTicks": "false",
+                            "hideLabelPercent": "0",
+                            "firstLast": "",
+                            "highLow": "",
+                            "pulloutSlices": "false",
+                            "pulloutOnlyOne": "false",
+                            "innerRadius": "0",
+                            "showMemberLabels": true
+                        },
+                        "seriesFormats": [
+                            {
+                                "multiTone": false,
+                                "color1": "99CC00",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R1",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506929:3506881",
+                                            "name": "DEPT-GENERAL FOOD",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-GENERAL FOOD",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "FF7300",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R2",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3507060:3506881",
+                                            "name": "DEPT-REFRIGERATED",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-REFRIGERATED",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "5AC8FA",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R3",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506762:3506881",
+                                            "name": "DEPT-BEVERAGES",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-BEVERAGES",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "FFD600",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R4",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506930:3506999",
+                                            "name": "DEPT-GENERAL MERCHANDISE",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-GENERAL MERCHANDISE",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "E5D7C9",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R5",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3507122:3506999",
+                                            "name": "DEPT-TOBACCO",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-TOBACCO",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "FF00A0",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R6",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506945:3506999",
+                                            "name": "DEPT-HEALTH",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HEALTH",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "46F000",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R7",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506915:3506881",
+                                            "name": "DEPT-FROZEN",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-FROZEN",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "E2AC27",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R8",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506975:3506881",
+                                            "name": "DEPT-LIQUOR",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-LIQUOR",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "1900FF",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R9",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506760:3506999",
+                                            "name": "DEPT-BEAUTY",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-BEAUTY",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "F8A685",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R10",
+                                "position1": null,
+                                "position2": null,
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506947:3506999",
+                                            "name": "DEPT-HOME CARE",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HOME CARE",
+                                            "level": "Department",
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            }
+                        ],
+                        "overRideSeries": [
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R3",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506762:3506881",
+                                            "name": "BEVERAGES",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-BEVERAGES",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R7",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506915:3506881",
+                                            "name": "FROZEN",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-FROZEN",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R1",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506929:3506881",
+                                            "name": "GENERAL FOOD",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-GENERAL FOOD",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R8",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506975:3506881",
+                                            "name": "LIQUOR",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-LIQUOR",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R2",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3507060:3506881",
+                                            "name": "REFRIGERATED",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-REFRIGERATED",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R9",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506760:3506999",
+                                            "name": "BEAUTY",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-BEAUTY",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R4",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506930:3506999",
+                                            "name": "GENERAL MERCHANDISE",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-GENERAL MERCHANDISE",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R6",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506945:3506999",
+                                            "name": "HEALTH",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HEALTH",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R10",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3506947:3506999",
+                                            "name": "HOME CARE",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HOME CARE",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            },
+                            {
+                                "multiTone": false,
+                                "color1": "",
+                                "color2": null,
+                                "negativeColor": null,
+                                "label": "R5",
+                                "position1": "3",
+                                "position2": "103",
+                                "mixOrientation": null,
+                                "tuple": {
+                                    "members": [
+                                        {
+                                            "id": ":Department:4527492:3507122:3506999",
+                                            "name": "TOBACCO",
+                                            "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-TOBACCO",
+                                            "level": null,
+                                            "dimensionName": "Product",
+                                            "functionName": null,
+                                            "uid": null
+                                        }
+                                    ]
+                                },
+                                "conditions": null,
+                                "isCustomColor": false,
+                                "plotAsDataTable": null,
+                                "plotAsChart": null,
+                                "showAs": null,
+                                "linePattern": null
+                            }
+                        ],
+                        "neck": {
+                            "height": "30",
+                            "width": "40"
+                        }
+                    },
+                    "legendFormats": null,
+                    "trendLines": {
+                        "displayMedian": null,
+                        "displayResidual": null,
+                        "displayTrendLine": null,
+                        "displayAverage": null
+                    },
+                    "legend": {
+                        "displayCommonLegend": "false",
+                        "display": "false",
+                        "displayBorder": "true",
+                        "wrapLegendText": "false",
+                        "legendStyle": {
+                            "fontType": null,
+                            "fontStyle": "Regular",
+                            "fontSize": "9",
+                            "fontColor": "000000",
+                            "text": "",
+                            "placement": "right",
+                            "textExpression": null,
+                            "expressionValueMap": null
+                        },
+                        "showHideLegends": null,
+                        "isReverse": "false",
+                        "isEqualWidths": "true",
+                        "verticalGap": 15,
+                        "horizontalGap": 10,
+                        "legendOverRides": null,
+                        "showColorRules": false
+                    },
+                    "axes": {
+                        "xaxis": {
+                            "axisTitle": {
+                                "text": "",
+                                "displayTitle": "false",
+                                "fontStyle": null,
+                                "fontSize": "9",
+                                "fontColor": "#",
+                                "placement": "top",
+                                "fontType": "",
+                                "textExpression": "",
+                                "expressionValueMap": {}
+                            },
+                            "axisLabel": {
+                                "displayLabel": null,
+                                "displayAxisLines": "false",
+                                "displayTicks": "false",
+                                "orientation": null,
+                                "customAngleValue": null,
+                                "wrapLabel": null,
+                                "wrapLabelToRow": null,
+                                "fontStyle": null,
+                                "fontSize": null,
+                                "fontColor": null,
+                                "fontType": null,
+                                "formatMaskName": null,
+                                "formatMaskValue": null,
+                                "reverseOrder": false,
+                                "smoothLine": null,
+                                "autoRotateCount": null,
+                                "showMinValue": null,
+                                "frequency": null,
+                                "nestedLabels": false,
+                                "isShowImage": false
+                            },
+                            "valueAxis": null,
+                            "axisScale": null,
+                            "axisMarker": null,
+                            "logScale": null,
+                            "isInverted": null,
+                            "invertLabels": null,
+                            "markerSize": null,
+                            "lineThickness": null,
+                            "axisAlpha": null,
+                            "annotations": null,
+                            "axisCross": null,
+                            "baseValue": null
+                        },
+                        "yaxis": null
+                    },
+                    "chartLayout": {
+                        "pageaxis": [],
+                        "xaxis": [
+                            [
+                                "C1",
+                                "C2",
+                                "C3"
+                            ]
+                        ],
+                        "hidden": [],
+                        "legend": [
+                            [
+                                "R1"
+                            ],
+                            [
+                                "R2"
+                            ],
+                            [
+                                "R3"
+                            ],
+                            [
+                                "R4"
+                            ],
+                            [
+                                "R5"
+                            ],
+                            [
+                                "R6"
+                            ],
+                            [
+                                "R7"
+                            ],
+                            [
+                                "R8"
+                            ],
+                            [
+                                "R9"
+                            ],
+                            [
+                                "R10"
+                            ]
+                        ],
+                        "yaxis": []
+                    },
+                    "chartConfiguaration": {
+                        "chartDisplayType": "percentage"
+                    },
+                    "chartData": [
+                        {
+                            "uid": "C1",
+                            "xid": "0",
+                            "bin": [
+                                {
+                                    "lid": "0",
+                                    "val": "1.9200293324348447E11",
+                                    "fmtdval": "$192,002,933,243",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                },
+                                {
+                                    "lid": "1",
+                                    "val": "1.047171065795041E11",
+                                    "fmtdval": "$104,717,106,580",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                },
+                                {
+                                    "lid": "2",
+                                    "val": "9.127072352852205E10",
+                                    "fmtdval": "$91,270,723,529",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                },
+                                {
+                                    "lid": "3",
+                                    "val": "7.629631188139369E10",
+                                    "fmtdval": "$76,296,311,881",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                },
+                                {
+                                    "lid": "4",
+                                    "val": "7.276395130505069E10",
+                                    "fmtdval": "$72,763,951,305",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                },
+                                {
+                                    "lid": "5",
+                                    "val": "6.299859069456727E10",
+                                    "fmtdval": "$62,998,590,695",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                },
+                                {
+                                    "lid": "6",
+                                    "val": "5.991570804684683E10",
+                                    "fmtdval": "$59,915,708,047",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                },
+                                {
+                                    "lid": "7",
+                                    "val": "5.579955986529258E10",
+                                    "fmtdval": "$55,799,559,865",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                },
+                                {
+                                    "lid": "8",
+                                    "val": "3.679256126076187E10",
+                                    "fmtdval": "$36,792,561,261",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                },
+                                {
+                                    "lid": "9",
+                                    "val": "2.658019598494884E10",
+                                    "fmtdval": "$26,580,195,985",
+                                    "cellStyle": null,
+                                    "cellProps": null
+                                }
+                            ]
+                        }
+                    ],
+                    "plotElements": null,
+                    "adjustmentSort": null,
+                    "chartDesignLayout": null,
+                    "margin": {
+                        "autoMargin": "true",
+                        "bottom": "20",
+                        "left": "20",
+                        "right": "20",
+                        "top": "20"
+                    },
+                    "threeD": {
+                        "angle": "0",
+                        "depth3D": "0"
+                    },
+                    "drillOnDimension": "Not drillable",
+                    "negativeColor": {
+                        "fontType": null,
+                        "fontStyle": null,
+                        "fontSize": null,
+                        "fontColor": "",
+                        "text": null,
+                        "placement": null,
+                        "textExpression": null,
+                        "expressionValueMap": null
+                    },
+                    "zooming": null,
+                    "guide": null,
+                    "gradient": null,
+                    "lineWidth": 0,
+                    "useNegativeColorIfDown": "false",
+                    "numberPrecision": {
+                        "audienceTemplate": "false",
+                        "axis": "2",
+                        "default": "false",
+                        "label": "1",
+                        "tooltip": "2"
+                    },
+                    "filterSelectedMembers": [],
+                    "histogramFilterMembers": null,
+                    "overlapBars": false,
+                    "reverseOrder": false,
+                    "iterate": null,
+                    "plotAsDataTable": "false",
+                    "showTableBorder": "false",
+                    "hasPlotOtions": true,
+                    "decomTreeConfig": {
+                        "graph": null,
+                        "tree": null
+                    },
+                    "background": {
+                        "color": "",
+                        "imageURL": "",
+                        "opacity": 100,
+                        "margin": 0
+                    },
+                    "labels": {
+                        "label": "",
+                        "font": "",
+                        "size": 14,
+                        "color": "",
+                        "positionX": "5",
+                        "positionY": "5",
+                        "labelExpression": "",
+                        "expressionValueMap": {}
+                    },
+                    "categoryAxis": {
+                        "labelsInside": false
+                    },
+                    "valueAxis": {
+                        "gradient": false,
+                        "labelsInside": false,
+                        "labelsPosition": "Center",
+                        "borderRadius": 0,
+                        "opacity": 100
+                    },
+                    "chartMargin": 0,
+                    "shadow": "false",
+                    "scrollBar": "false",
+                    "cursor": "false",
+                    "runTimeOptions": {
+                        "applySort": false,
+                        "switchVisualizer": false
+                    },
+                    "benchmark": false,
+                    "alignZeroAxes": false,
+                    "applyGridFormat": false,
+                    "overrideMemberFormat": false
+                }
+            ]
+        },
+        "visualizersBasicInfo": null,
+        "memberSelections": {
+            "slicer": [
+                {
+                    "index": 2,
+                    "dimName": "Geography",
+                    "dispDimName": "Geography",
+                    "rules": [
+                        {
+                            "alias": "GeographyNo Transformation_2",
+                            "id": "99c7bd80be64067f:-4bc09fc7:1758c2dbf5a:16f5",
+                            "dimensionName": "Geography",
+                            "dispDimName": "Geography",
+                            "isMultipleSelection": false,
+                            "members": [
+                                {
+                                    "id": ":Level 2:47318157",
+                                    "name": "Total US - Multi Outlet + Conv",
+                                    "isSelected": true,
+                                    "fullPath": "Geography.Projected GEOGRAPHIES.Total US : FOLDER.Total US - Multi Outlet + Conv",
+                                    "level": "Level 2",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Geography.Projected GEOGRAPHIES",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Level 2:47316894",
+                                    "name": "Total US - Food",
+                                    "isSelected": false,
+                                    "fullPath": "Geography.Projected GEOGRAPHIES.Total US : FOLDER.Total US - Food",
+                                    "level": "Level 2",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Geography.Projected GEOGRAPHIES",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Level 2:47316775",
+                                    "name": "Total US - Drug",
+                                    "isSelected": false,
+                                    "fullPath": "Geography.Projected GEOGRAPHIES.Total US : FOLDER.Total US - Drug",
+                                    "level": "Level 2",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Geography.Projected GEOGRAPHIES",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Level 2:47317249",
+                                    "name": "Total US - Conv",
+                                    "isSelected": false,
+                                    "fullPath": "Geography.Projected GEOGRAPHIES.Total US : FOLDER.Total US - Conv",
+                                    "level": "Level 2",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Geography.Projected GEOGRAPHIES",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                }
+                            ],
+                            "editable": true,
+                            "transformation": null,
+                            "type": null,
+                            "isTotal": false,
+                            "isAllOthers": false
+                        }
+                    ],
+                    "attributes": null,
+                    "optional": false,
+                    "visibleInStory": false
+                },
+                {
+                    "index": 3,
+                    "dimName": "Time",
+                    "dispDimName": "Time",
+                    "rules": [
+                        {
+                            "alias": "TimeNo Transformation_3",
+                            "id": "99c7bd80be64067f:-4bc09fc7:1758c2dbf5a:16f7",
+                            "dimensionName": "Time",
+                            "dispDimName": "Time",
+                            "isMultipleSelection": false,
+                            "members": [
+                                {
+                                    "id": ":Year_444_2:95241553",
+                                    "name": "Building Calendar Year 2020 Ending 12-27-20",
+                                    "isSelected": true,
+                                    "fullPath": "Time.Year-Quad-Wk : FOLDER.Building Calendar Year 2020 Ending 12-27-20",
+                                    "level": "Year_444_2",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Time.Year-Quad-Wk : FOLDER",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                }
+                            ],
+                            "editable": true,
+                            "transformation": null,
+                            "type": null,
+                            "isTotal": false,
+                            "isAllOthers": false
+                        }
+                    ],
+                    "attributes": null,
+                    "optional": false,
+                    "visibleInStory": false
+                }
+            ],
+            "row": [
+                {
+                    "index": 1,
+                    "dimName": "Product",
+                    "dispDimName": "Product",
+                    "rules": [
+                        {
+                            "alias": "ProductNo Transformation_1",
+                            "id": "99c7bd80be64067f:-4bc09fc7:1758c2dbf5a:16f3",
+                            "dimensionName": "Product",
+                            "dispDimName": "Product",
+                            "isMultipleSelection": true,
+                            "members": [
+                                {
+                                    "id": ":Department:4527492:3506762:3506881",
+                                    "name": "DEPT-BEVERAGES",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-BEVERAGES",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Department:4527492:3506915:3506881",
+                                    "name": "DEPT-FROZEN",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-FROZEN",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Department:4527492:3506929:3506881",
+                                    "name": "DEPT-GENERAL FOOD",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-GENERAL FOOD",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Department:4527492:3506975:3506881",
+                                    "name": "DEPT-LIQUOR",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-LIQUOR",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Department:4527492:3507060:3506881",
+                                    "name": "DEPT-REFRIGERATED",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-REFRIGERATED",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Department:4527492:3506760:3506999",
+                                    "name": "DEPT-BEAUTY",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-BEAUTY",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Department:4527492:3506930:3506999",
+                                    "name": "DEPT-GENERAL MERCHANDISE",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-GENERAL MERCHANDISE",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Department:4527492:3506945:3506999",
+                                    "name": "DEPT-HEALTH",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HEALTH",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Department:4527492:3506947:3506999",
+                                    "name": "DEPT-HOME CARE",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HOME CARE",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                },
+                                {
+                                    "id": ":Department:4527492:3507122:3506999",
+                                    "name": "DEPT-TOBACCO",
+                                    "isSelected": true,
+                                    "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-TOBACCO",
+                                    "level": "Department",
+                                    "type": null,
+                                    "functionName": null,
+                                    "hierarchyName": "Product.Standard Hierarchy",
+                                    "timeAggregate": null,
+                                    "members": null,
+                                    "hierarchicalAttrValues": null,
+                                    "indent": 0,
+                                    "isSegment": false,
+                                    "filters": null
+                                }
+                            ],
+                            "editable": true,
+                            "transformation": null,
+                            "type": null,
+                            "isTotal": false,
+                            "isAllOthers": false
+                        }
+                    ],
+                    "attributes": null,
+                    "optional": false,
+                    "visibleInStory": false
+                }
+            ]
+        },
+        "reportExtensionProperties": {
+            "IsAdhoc": "true",
+            "metadata": "{\"background\":{\"color\":\"\",\"imageURL\":\"\",\"opacity\":100,\"margin\":0}}",
+            "reportThumbnails": "{\"0\":\"pieChart\"}"
+        },
+        "hierarchies": null,
+        "cellPropsValuesSet": [],
+        "ruleDef": null,
+        "ruleMetaData": null,
+        "localeTranslationMap": null,
+        "gridLayout": null,
+        "smartText": {},
+        "smartTextDTO": null,
+        "queueStatus": null,
+        "asymmetricSelection": {
+            "asymmetricDimension": [
+                {
+                    "dimensionName": "Measures",
+                    "dispDimName": "Measures",
+                    "headerLevel": "1",
+                    "members": [
+                        {
+                            "id": "!M2_1",
+                            "name": "Dollar Sales",
+                            "isSelected": true,
+                            "fullPath": "Measures.Sales : FOLDER.Dollar Sales",
+                            "level": "Sales : FOLDER",
+                            "type": "member",
+                            "dimensionName": null,
+                            "dispDimName": null,
+                            "leaf": null
+                        }
+                    ],
+                    "visible": true,
+                    "editable": true,
+                    "singleSelect": false,
+                    "allowDrill": null
+                },
+                {
+                    "dimensionName": "Causal",
+                    "dispDimName": "Causal",
+                    "headerLevel": "2",
+                    "members": [
+                        {
+                            "id": ":Level1:71392",
+                            "name": "Total",
+                            "isSelected": true,
+                            "fullPath": "Causal.Causal Permutations.Total",
+                            "level": "",
+                            "type": "member",
+                            "dimensionName": null,
+                            "dispDimName": null,
+                            "leaf": null
+                        }
+                    ],
+                    "visible": true,
+                    "editable": true,
+                    "singleSelect": false,
+                    "allowDrill": null
+                },
+                {
+                    "dimensionName": "Periodicity",
+                    "dispDimName": "Periodicity",
+                    "headerLevel": "3",
+                    "members": [
+                        {
+                            "id": "1226",
+                            "name": "Current",
+                            "isSelected": true,
+                            "fullPath": "Periodicity.Periodicity : FOLDER.Current",
+                            "level": "",
+                            "type": "member",
+                            "dimensionName": null,
+                            "dispDimName": null,
+                            "leaf": null
+                        }
+                    ],
+                    "visible": true,
+                    "editable": true,
+                    "singleSelect": false,
+                    "allowDrill": null
+                }
+            ],
+            "groups": [
+                {
+                    "id": "!M2_1",
+                    "group": [
+                        {
+                            "id": ":Level1:71392",
+                            "group": [
+                                {
+                                    "id": "1226",
+                                    "group": null,
+                                    "isSelected": true
+                                }
+                            ],
+                            "isSelected": true
+                        }
+                    ],
+                    "isSelected": true
+                }
+            ],
+            "defaultAsymmetricMembers": {
+                "Causal": {
+                    "id": ":Level1:71392",
+                    "name": "Total",
+                    "isSelected": false,
+                    "fullPath": "Causal.Causal Permutations.Total",
+                    "level": null,
+                    "type": null,
+                    "dimensionName": "Causal",
+                    "dispDimName": "Causal",
+                    "leaf": false
+                },
+                "Periodicity": {
+                    "id": "1226",
+                    "name": "Current",
+                    "isSelected": false,
+                    "fullPath": "Periodicity.Periodicity : FOLDER.Current",
+                    "level": null,
+                    "type": null,
+                    "dimensionName": "Periodicity",
+                    "dispDimName": "Periodicity",
+                    "leaf": false
+                }
+            },
+            "asymmetricDimensions": [
+                "Measures",
+                "Causal",
+                "Periodicity"
+            ]
+        },
+        "expandedTuples": [],
+        "warnings": null,
+        "cacheFileName": "Cache_99c7bd80be64067f_-4bc09fc7_1758c2dbf5a_1d3d/5018dcbe7d9928de_67446f3_175ab150955_4386_WKS",
+        "cacheKey": "REPORT_DEFAULT_SELECTIONS",
+        "reportActions": [
+            {
+                "functionName": "Sort",
+                "memberPosition": null,
+                "members": null,
+                "sortFunc": {
+                    "name": null,
+                    "uid": "C1:C2:C3",
+                    "rowDimensions": null,
+                    "parentPosition": 1,
+                    "preserveHierarchy": true,
+                    "orderBy": "DataValue",
+                    "order": "descending",
+                    "basedOn": [
+                        {
+                            "id": "!M2_1",
+                            "name": null,
+                            "fullPath": "Measures.Sales : FOLDER.Dollar Sales",
+                            "level": null,
+                            "dimensionName": "Measures",
+                            "functionName": null,
+                            "uid": null
+                        },
+                        {
+                            "id": ":Level1:71392",
+                            "name": null,
+                            "fullPath": "Causal.Causal Permutations.Total",
+                            "level": null,
+                            "dimensionName": "Causal",
+                            "functionName": null,
+                            "uid": null
+                        },
+                        {
+                            "id": "1226",
+                            "name": null,
+                            "fullPath": "Periodicity.Periodicity : FOLDER.Current",
+                            "level": null,
+                            "dimensionName": "Periodicity",
+                            "functionName": null,
+                            "uid": null
+                        }
+                    ],
+                    "dimensionName": null,
+                    "attribute": null
+                },
+                "filterFunc": null,
+                "chartOption": null,
+                "drillUpOrDown": false,
+                "numberPrecision": 0,
+                "currFormatMask": null
+            }
+        ],
+        "disableActions": false,
+        "gridVisible": false,
+        "dimensionDisplayOrder": [
+            "Product",
+            "Geography",
+            "Time",
+            "Measures"
+        ],
+        "chartHasRuleConfigured": false,
+        "reportType": null,
+        "extractMetadata": null,
+        "geoMapColorPalettes": null,
+        "timeAggregateMember": [],
+        "extractReportSummary": null,
+        "progressiveFilter": null,
+        "vennDimensions": null,
+        "rowLimit": null,
+        "columnLimit": null,
+        "cellCount": 10,
+        "keepOnlyMembers": null,
+        "autoCalculatedMembers": {
+            "Geography": {},
+            "Measures": {},
+            "Product": {},
+            "Time": {}
+        },
+        "allowLayoutChange": false,
+        "reportLayout": null,
+        "dispDimNames": null,
+        "measureIndex": null,
+        "aAuthToken": null,
+        "vizImage": null
+    },
+    "retCode": {
+        "code": 0,
+        "message": "Your request has been processed successfully",
+        "totalTimeTaken": 573
+    }
+}

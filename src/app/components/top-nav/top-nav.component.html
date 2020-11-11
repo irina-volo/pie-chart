@@ -1,0 +1,19 @@
+<div class='top-level'>
+  <mat-toolbar>
+      <div class='container'>
+          <div class='title'>{{title}}</div>
+          <div class='ng-version'>Built with Angular 10.1.7</div>
+      </div>
+      <div class='nav-spacer'></div>
+      <div class='menu-options'>
+        <button class='container2' mat-button color='primary' [routerLink]="['/dashboard']">
+          <div class='nav-text'>Dashboard</div>    
+          <div class='nav-label'>AM Charts</div>    
+        </button>
+        <button class='container2' mat-button color='primary' [routerLink]="['/chart-wrapper']">
+          <div class='nav-text'>Chart Wrapper</div>    
+          <div class='nav-label'>AM Chart</div>    
+        </button>
+      </div>
+  </mat-toolbar>
+</div>

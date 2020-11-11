@@ -1,0 +1,1104 @@
+{
+    "visualizerConfig": {
+        "gridChartOrientation": "sideBySide",
+        "gridChartOrder": "gridFirst",
+        "chartLayout": "OneCellTemplate",
+        "visLayout": {
+            "template": "",
+            "coordinates": [
+                {
+                    "width": "1",
+                    "height": "1",
+                    "left": "0",
+                    "top": "0",
+                    "index": ""
+                }
+            ],
+            "splitter": []
+        },
+        "visualizers": [
+            {
+                "type": "verticalbar",
+                "textPaneData": null,
+                "customVisualizer": null,
+                "customData": null,
+                "contentVizData": null,
+                "evaluatedContentVizData": null,
+                "httpImageUrl": null,
+                "runTimeVisIndex": 0,
+                "chartErrorMessage": null,
+                "chartArea": {
+                    "multiTone": false,
+                    "color1": "FFFFFF",
+                    "color2": null,
+                    "mixOrientation": null,
+                    "position1": null,
+                    "position2": null,
+                    "backgroundColor": "FFFFFF"
+                },
+                "gridlinesConfig": {
+                    "barWidth": "",
+                    "displayGridlines": "false",
+                    "gridLineOption": "",
+                    "displayBorder": "true",
+                    "gridLineType": "horizontal",
+                    "displayChartComments": "true"
+                },
+                "title": {
+                    "fontType": "Times New Roman",
+                    "fontStyle": "",
+                    "fontSize": "15",
+                    "fontColor": "#bb000e",
+                    "text": " DEPT-BEVERAGES  Latest 4 Weeks Ending 10-04-20  $16,692,058,054 ",
+                    "placement": "",
+                    "textExpression": " {Product [selected][name]}  {Time [selected][name]}  {[R3,C1]} ",
+                    "expressionValueMap": {
+                        "{[R3,C1]}": "$16,692,058,054",
+                        "{Product [selected][name]}": "DEPT-BEVERAGES",
+                        "{Time [selected][name]}": "Latest 4 Weeks Ending 10-04-20"
+                    }
+                },
+                "caption": {
+                    "fontType": "",
+                    "fontStyle": "Bold",
+                    "fontSize": "8",
+                    "fontColor": "000000",
+                    "text": "",
+                    "placement": "center",
+                    "textExpression": "",
+                    "expressionValueMap": {}
+                },
+                "dataSeries": {
+                    "displayBorder": "true",
+                    "displayMarkers": "false",
+                    "displayMouseOver": "true",
+                    "groupSmallerValues": false,
+                    "groupAllValues": 0,
+                    "marker": "round",
+                    "pullOut": false,
+                    "title": null,
+                    "color": null,
+                    "adjustmentBaseColor": {},
+                    "dataLabel": {
+                        "displayLabels": "true",
+                        "labelOrientation": "horizontal",
+                        "fontStyle": "Regular",
+                        "fontSize": "12",
+                        "fontColor": "",
+                        "fontType": null,
+                        "displayTotal": "false",
+                        "totalOrientaion": "horizontal",
+                        "placement": null,
+                        "displaySeriesName": false,
+                        "bestFit": "true",
+                        "titleFontStyle": null,
+                        "titleFontSize": null,
+                        "titleFontColor": null,
+                        "inside": "false",
+                        "rotate": "0",
+                        "distance": "",
+                        "showTicks": "",
+                        "hideLabelPercent": "",
+                        "firstLast": "false",
+                        "highLow": "false",
+                        "pulloutSlices": "",
+                        "pulloutOnlyOne": "",
+                        "innerRadius": "",
+                        "showMemberLabels": false
+                    },
+                    "seriesFormats": [
+                        {
+                            "multiTone": false,
+                            "color1": "99CC00",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "C1",
+                            "position1": null,
+                            "position2": null,
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": "!M2_1",
+                                        "name": "Dollar Sales",
+                                        "fullPath": "Measures.Sales : FOLDER.Dollar Sales",
+                                        "level": null,
+                                        "dimensionName": "Measures",
+                                        "functionName": null,
+                                        "uid": null
+                                    },
+                                    {
+                                        "id": ":Level1:71392",
+                                        "name": "Total",
+                                        "fullPath": "Causal.Causal Permutations.Total",
+                                        "level": "Level1",
+                                        "dimensionName": "Causal",
+                                        "functionName": null,
+                                        "uid": null
+                                    },
+                                    {
+                                        "id": "1226",
+                                        "name": "Current",
+                                        "fullPath": "Periodicity.Periodicity : FOLDER.Current",
+                                        "level": null,
+                                        "dimensionName": "Periodicity",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "FF7300",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "C4",
+                            "position1": null,
+                            "position2": null,
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": "!M2_2",
+                                        "name": "Unit Sales",
+                                        "fullPath": "Measures.Sales : FOLDER.Unit Sales",
+                                        "level": null,
+                                        "dimensionName": "Measures",
+                                        "functionName": null,
+                                        "uid": null
+                                    },
+                                    {
+                                        "id": ":Level1:71392",
+                                        "name": "Total",
+                                        "fullPath": "Causal.Causal Permutations.Total",
+                                        "level": "Level1",
+                                        "dimensionName": "Causal",
+                                        "functionName": null,
+                                        "uid": null
+                                    },
+                                    {
+                                        "id": "1226",
+                                        "name": "Current",
+                                        "fullPath": "Periodicity.Periodicity : FOLDER.Current",
+                                        "level": null,
+                                        "dimensionName": "Periodicity",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        }
+                    ],
+                    "overRideSeries": [
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R1",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506762:3506881",
+                                        "name": "DEPT-BEVERAGES",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-BEVERAGES",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "#938953",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R2",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506915:3506881",
+                                        "name": "DEPT-FROZEN",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-FROZEN",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R3",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506929:3506881",
+                                        "name": "DEPT-GENERAL FOOD",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-GENERAL FOOD",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R4",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506975:3506881",
+                                        "name": "DEPT-LIQUOR",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-LIQUOR",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R5",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3507060:3506881",
+                                        "name": "DEPT-REFRIGERATED",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-REFRIGERATED",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R6",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506760:3506999",
+                                        "name": "DEPT-BEAUTY",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-BEAUTY",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R7",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506930:3506999",
+                                        "name": "DEPT-GENERAL MERCHANDISE",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-GENERAL MERCHANDISE",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R8",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506945:3506999",
+                                        "name": "DEPT-HEALTH",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HEALTH",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R9",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506947:3506999",
+                                        "name": "DEPT-HOME CARE",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HOME CARE",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "color2": null,
+                            "negativeColor": null,
+                            "label": "R10",
+                            "position1": "3",
+                            "position2": "103",
+                            "mixOrientation": null,
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3507122:3506999",
+                                        "name": "DEPT-TOBACCO",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-TOBACCO",
+                                        "level": null,
+                                        "dimensionName": "Product",
+                                        "functionName": null,
+                                        "uid": null
+                                    }
+                                ]
+                            },
+                            "conditions": null,
+                            "isCustomColor": false,
+                            "plotAsDataTable": null,
+                            "plotAsChart": null,
+                            "showAs": null,
+                            "linePattern": null
+                        }
+                    ],
+                    "neck": {
+                        "height": "30",
+                        "width": "40"
+                    }
+                },
+                "legendFormats": null,
+                "trendLines": {
+                    "displayMedian": "false",
+                    "displayResidual": "false",
+                    "displayTrendLine": "false",
+                    "displayAverage": "false"
+                },
+                "legend": {
+                    "displayCommonLegend": "false",
+                    "display": "true",
+                    "displayBorder": "true",
+                    "wrapLegendText": "false",
+                    "legendStyle": {
+                        "fontType": null,
+                        "fontStyle": "Regular",
+                        "fontSize": "9",
+                        "fontColor": "000000",
+                        "text": "",
+                        "placement": "bottom",
+                        "textExpression": null,
+                        "expressionValueMap": null
+                    },
+                    "showHideLegends": null,
+                    "isReverse": "false",
+                    "isEqualWidths": "true",
+                    "verticalGap": 0,
+                    "horizontalGap": 20,
+                    "legendOverRides": null,
+                    "showColorRules": false
+                },
+                "axes": {
+                    "xaxis": {
+                        "axisTitle": {
+                            "text": "X-Axis",
+                            "displayTitle": "true",
+                            "fontStyle": null,
+                            "fontSize": "11",
+                            "fontColor": "#",
+                            "placement": "",
+                            "fontType": "",
+                            "textExpression": "X-Axis",
+                            "expressionValueMap": {}
+                        },
+                        "axisLabel": {
+                            "displayLabel": "true",
+                            "displayAxisLines": "true",
+                            "displayTicks": "true",
+                            "orientation": "horizontal",
+                            "customAngleValue": "0",
+                            "wrapLabel": "false",
+                            "wrapLabelToRow": 2,
+                            "fontStyle": "Regular",
+                            "fontSize": "9",
+                            "fontColor": "",
+                            "fontType": "",
+                            "formatMaskName": null,
+                            "formatMaskValue": null,
+                            "reverseOrder": false,
+                            "smoothLine": "",
+                            "autoRotateCount": "1",
+                            "showMinValue": "",
+                            "frequency": "1",
+                            "nestedLabels": false,
+                            "isShowImage": true
+                        },
+                        "valueAxis": null,
+                        "axisScale": null,
+                        "axisMarker": null,
+                        "logScale": null,
+                        "isInverted": null,
+                        "invertLabels": null,
+                        "markerSize": null,
+                        "lineThickness": null,
+                        "axisAlpha": null,
+                        "annotations": null,
+                        "axisCross": null,
+                        "baseValue": null
+                    },
+                    "yaxis": {
+                        "axisTitle": {
+                            "text": "Y-Axis",
+                            "displayTitle": "true",
+                            "fontStyle": null,
+                            "fontSize": "9",
+                            "fontColor": "#",
+                            "placement": "",
+                            "fontType": "",
+                            "textExpression": "Y-Axis",
+                            "expressionValueMap": {}
+                        },
+                        "axisLabel": {
+                            "displayLabel": "true",
+                            "displayAxisLines": "true",
+                            "displayTicks": "true",
+                            "orientation": "horizontal",
+                            "customAngleValue": "",
+                            "wrapLabel": "false",
+                            "wrapLabelToRow": 2,
+                            "fontStyle": "Regular",
+                            "fontSize": "9",
+                            "fontColor": "",
+                            "fontType": "",
+                            "formatMaskName": "none",
+                            "formatMaskValue": "",
+                            "reverseOrder": false,
+                            "smoothLine": "false",
+                            "autoRotateCount": "",
+                            "showMinValue": "",
+                            "frequency": "1",
+                            "nestedLabels": false,
+                            "isShowImage": false
+                        },
+                        "valueAxis": {
+                            "gradient": true,
+                            "labelsInside": null,
+                            "labelsPosition": null,
+                            "borderRadius": 0,
+                            "opacity": 65
+                        },
+                        "axisScale": {
+                            "intervalCount": 5,
+                            "autoScale": false,
+                            "minScale": 0,
+                            "maxScale": 0,
+                            "dynamicScale": false,
+                            "dynamicScaleValue": "",
+                            "showAs": "column",
+                            "isInverted": "",
+                            "invertLabels": "",
+                            "linePattern": "dotted",
+                            "commonScale": false
+                        },
+                        "axisMarker": "round",
+                        "logScale": null,
+                        "isInverted": "false",
+                        "invertLabels": "false",
+                        "markerSize": 0,
+                        "lineThickness": 2,
+                        "axisAlpha": null,
+                        "annotations": [
+                            {
+                                "type": "Reference",
+                                "category": null,
+                                "toCategory": null,
+                                "angle": null,
+                                "toAngle": null,
+                                "value": null,
+                                "toValue": null,
+                                "percentValues": null,
+                                "captionProperties": {
+                                    "position": null,
+                                    "balloonText": null,
+                                    "color": null,
+                                    "label": "Line 1",
+                                    "fontSize": null
+                                },
+                                "lineProperties": {
+                                    "lineAlpha": null,
+                                    "lineColor": "#000000",
+                                    "lineThickness": 1,
+                                    "expand": null,
+                                    "above": null
+                                }
+                            },
+                            {
+                                "type": "Max",
+                                "category": null,
+                                "toCategory": null,
+                                "angle": null,
+                                "toAngle": null,
+                                "value": 10,
+                                "toValue": 10,
+                                "percentValues": null,
+                                "captionProperties": {
+                                    "position": null,
+                                    "balloonText": null,
+                                    "color": null,
+                                    "label": "Line 2",
+                                    "fontSize": null
+                                },
+                                "lineProperties": {
+                                    "lineAlpha": null,
+                                    "lineColor": "#1f497d",
+                                    "lineThickness": 1.5,
+                                    "expand": null,
+                                    "above": null
+                                }
+                            },
+                            {
+                                "type": "Min",
+                                "category": null,
+                                "toCategory": null,
+                                "angle": null,
+                                "toAngle": null,
+                                "value": 20,
+                                "toValue": 20,
+                                "percentValues": null,
+                                "captionProperties": {
+                                    "position": null,
+                                    "balloonText": null,
+                                    "color": null,
+                                    "label": "Line 3",
+                                    "fontSize": null
+                                },
+                                "lineProperties": {
+                                    "lineAlpha": null,
+                                    "lineColor": "#bb000e",
+                                    "lineThickness": 2,
+                                    "expand": null,
+                                    "above": null
+                                }
+                            }
+                        ],
+                        "axisCross": null,
+                        "baseValue": 0
+                    }
+                },
+                "chartLayout": {
+                    "pageaxis": [],
+                    "xaxis": [
+                        [
+                            "R1"
+                        ],
+                        [
+                            "R2"
+                        ],
+                        [
+                            "R3"
+                        ],
+                        [
+                            "R4"
+                        ],
+                        [
+                            "R5"
+                        ],
+                        [
+                            "R6"
+                        ],
+                        [
+                            "R7"
+                        ],
+                        [
+                            "R8"
+                        ],
+                        [
+                            "R9"
+                        ],
+                        [
+                            "R10"
+                        ]
+                    ],
+                    "hidden": [],
+                    "legend": [
+                        [
+                            "C1",
+                            "C2",
+                            "C3"
+                        ],
+                        [
+                            "C4",
+                            "C2",
+                            "C3"
+                        ]
+                    ],
+                    "yaxis": []
+                },
+                "chartConfiguaration": {
+                    "chartDisplayType": "none"
+                },
+                "chartData": [
+                    {
+                        "uid": "R1",
+                        "xid": "0",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "8.312796660750253E9",
+                                "fmtdval": "$8,312,796,661",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "3.221918732595497E9",
+                                "fmtdval": "3,221,918,733",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R2",
+                        "xid": "1",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "5.135967000885008E9",
+                                "fmtdval": "$5,135,967,001",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "1.3116495090050066E9",
+                                "fmtdval": "1,311,649,509",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R3",
+                        "xid": "2",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "1.6692058053640535E10",
+                                "fmtdval": "$16,692,058,054",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "6.744677191819388E9",
+                                "fmtdval": "6,744,677,192",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R4",
+                        "xid": "3",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "5.03139937129083E9",
+                                "fmtdval": "$5,031,399,371",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "6.096211948505493E8",
+                                "fmtdval": "609,621,195",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R5",
+                        "xid": "4",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "9.24812235928842E9",
+                                "fmtdval": "$9,248,122,359",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "2.8718104963311286E9",
+                                "fmtdval": "2,871,810,496",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R6",
+                        "xid": "5",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "3.086308234963128E9",
+                                "fmtdval": "$3,086,308,235",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "5.860071236816945E8",
+                                "fmtdval": "586,007,124",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R7",
+                        "xid": "6",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "6.620645479867451E9",
+                                "fmtdval": "$6,620,645,480",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "1.3645534623904443E9",
+                                "fmtdval": "1,364,553,462",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R8",
+                        "xid": "7",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "5.493853252167659E9",
+                                "fmtdval": "$5,493,853,252",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "7.310750503337259E8",
+                                "fmtdval": "731,075,050",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R9",
+                        "xid": "8",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "2.3855193470364394E9",
+                                "fmtdval": "$2,385,519,347",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "4.937494065409417E8",
+                                "fmtdval": "493,749,407",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R10",
+                        "xid": "9",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "6.678050923078334E9",
+                                "fmtdval": "$6,678,050,923",
+                                "cellStyle": null,
+                                "cellProps": null
+                            },
+                            {
+                                "lid": "1",
+                                "val": "1.0171497935317488E9",
+                                "fmtdval": "1,017,149,794",
+                                "cellStyle": null,
+                                "cellProps": null
+                            }
+                        ]
+                    }
+                ],
+                "plotElements": null,
+                "adjustmentSort": null,
+                "chartDesignLayout": null,
+                "margin": {
+                    "autoMargin": "true",
+                    "bottom": "20",
+                    "left": "20",
+                    "right": "20",
+                    "top": "20"
+                },
+                "threeD": {
+                    "angle": "15",
+                    "depth3D": "15"
+                },
+                "drillOnDimension": "Product",
+                "negativeColor": {
+                    "fontType": null,
+                    "fontStyle": null,
+                    "fontSize": null,
+                    "fontColor": "",
+                    "text": null,
+                    "placement": null,
+                    "textExpression": null,
+                    "expressionValueMap": null
+                },
+                "zooming": null,
+                "guide": null,
+                "gradient": null,
+                "lineWidth": 0,
+                "useNegativeColorIfDown": "false",
+                "numberPrecision": {
+                    "audienceTemplate": "false",
+                    "axis": "2",
+                    "default": "true",
+                    "label": "2",
+                    "tooltip": "4"
+                },
+                "filterSelectedMembers": [],
+                "histogramFilterMembers": null,
+                "overlapBars": false,
+                "reverseOrder": true,
+                "iterate": null,
+                "plotAsDataTable": "true",
+                "showTableBorder": "true",
+                "hasPlotOtions": false,
+                "decomTreeConfig": {
+                    "graph": null,
+                    "tree": null
+                },
+                "background": {
+                    "color": "",
+                    "imageURL": "data:image/jpeg;base64,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",
+                    "opacity": 90,
+                    "margin": 0
+                },
+                "labels": {
+                    "label": " $5,031,399,371 ",
+                    "font": "",
+                    "size": 23,
+                    "color": "#FFFF00",
+                    "positionX": "26",
+                    "positionY": "39",
+                    "labelExpression": " {[R4,C1]} ",
+                    "expressionValueMap": {
+                        "{[R4,C1]}": "$5,031,399,371"
+                    }
+                },
+                "categoryAxis": {
+                    "labelsInside": false
+                },
+                "valueAxis": {
+                    "gradient": false,
+                    "labelsInside": false,
+                    "labelsPosition": "Right",
+                    "borderRadius": 4,
+                    "opacity": 100
+                },
+                "chartMargin": 70,
+                "shadow": "false",
+                "scrollBar": "true",
+                "cursor": "true",
+                "runTimeOptions": {
+                    "applySort": true,
+                    "switchLegend": true,
+                    "switchVisualizer": true
+                },
+                "benchmark": false,
+                "alignZeroAxes": false,
+                "applyGridFormat": true,
+                "overrideMemberFormat": false
+            },
+            {
+                "type": "grid",
+                "textPaneData": null,
+                "customVisualizer": null,
+                "customData": null,
+                "contentVizData": null,
+                "evaluatedContentVizData": null,
+                "httpImageUrl": null,
+                "runTimeVisIndex": 0,
+                "gridLayout": {
+                    "rowaxis": [
+                        "Product"
+                    ],
+                    "columnaxis": [
+                        "Measures",
+                        "Causal",
+                        "Periodicity"
+                    ],
+                    "pageaxis": [
+                        "Geography",
+                        "Time"
+                    ]
+                },
+                "flattenedColumnHeader": {
+                    "C1;C2;C3": "$",
+                    "C4;C2;C3": "Unit Sales"
+                },
+                "flattenedRowHeader": null,
+                "gridPageInfo": {
+                    "currentRowPageNum": 1,
+                    "currentColPageNum": 1,
+                    "totalRowPage": 1,
+                    "totalColPage": 1,
+                    "rowPerPage": 250,
+                    "colPerPage": 2147483647
+                },
+                "gridErrorMsg": null
+            }
+        ]
+    }
+}

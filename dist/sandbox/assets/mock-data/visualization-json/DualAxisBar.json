@@ -1,0 +1,991 @@
+{
+    "visualizerConfig": {
+        "gridChartOrientation": "sideBySide",
+        "gridChartOrder": "gridFirst",
+        "chartLayout": "OneCellTemplate",
+        "visLayout": {
+            "template": "",
+            "coordinates": [
+                {
+                    "width": "1",
+                    "height": "1",
+                    "left": "0",
+                    "top": "0",
+                    "index": ""
+                }
+            ],
+            "splitter": []
+        },
+        "gridOptions": {
+            "columnTitle": "true",
+            "rowTitle": "true",
+            "expandCollapse": "true",
+            "displayBanding": "false",
+            "parentPosition": "1",
+            "showAttributesafterMeasures": "false",
+            "disableGridActions": "false",
+            "allowIndexing": false,
+            "hideInnerBorder": false,
+            "outerBorderWidth": 0,
+            "indent": "true",
+            "rowIndent": "2",
+            "generationStyles": "none",
+            "preserveHierarchy": true,
+            "fontType": "proxima-nova",
+            "fontSize": 14,
+            "fontColor": "#000",
+            "applyMemberColorToForeGround": false,
+            "textExpression": "",
+            "text": "",
+            "missingRows": "true",
+            "missingColumns": "false",
+            "zeroes": "true",
+            "errors": "true",
+            "customProperties": "{\"fontSettings\":{\"fontColor\":\"\",\"fontType\":\"proxima-nova\",\"headerColor\":\"\",\"headerFontColor\":\"\",\"alternativeRowsColor\":\"\"},\"columnSettings\":{\"titleAlign\":\"0\"}}"
+        },
+        "visualizers": [
+            {
+                "chartArea": {
+                    "backgroundColor": "FFFFFF",
+                    "multiTone": false,
+                    "color1": "FFFFFF"
+                },
+                "gridlinesConfig": {
+                    "barWidth": "",
+                    "displayGridlines": "false",
+                    "gridLineOption": "",
+                    "displayBorder": "true",
+                    "gridLineType": "vertical",
+                    "displayChartComments": "true"
+                },
+                "title": {
+                    "fontType": "proxima-nova",
+                    "fontStyle": "",
+                    "fontSize": "11",
+                    "fontColor": "",
+                    "text": "",
+                    "placement": "",
+                    "textExpression": "",
+                    "expressionValueMap": {}
+                },
+                "caption": {
+                    "fontType": "",
+                    "fontStyle": "Bold",
+                    "fontSize": "8",
+                    "fontColor": "000000",
+                    "text": "",
+                    "placement": "center",
+                    "textExpression": "",
+                    "expressionValueMap": {}
+                },
+                "dataSeries": {
+                    "displayBorder": "true",
+                    "displayMarkers": "false",
+                    "displayMouseOver": "false",
+                    "groupSmallerValues": false,
+                    "groupAllValues": 0,
+                    "marker": "round",
+                    "pullOut": false,
+                    "adjustmentBaseColor": {},
+                    "dataLabel": {
+                        "displayLabels": "true",
+                        "labelOrientation": "horizontal",
+                        "fontStyle": "Regular",
+                        "fontSize": "9",
+                        "fontColor": "",
+                        "displayTotal": "false",
+                        "totalOrientaion": "horizontal",
+                        "displaySeriesName": false,
+                        "bestFit": "true",
+                        "inside": "true",
+                        "rotate": "0",
+                        "distance": "",
+                        "showTicks": "",
+                        "hideLabelPercent": "",
+                        "firstLast": "false",
+                        "highLow": "true",
+                        "pulloutSlices": "",
+                        "pulloutOnlyOne": "",
+                        "innerRadius": "",
+                        "showMemberLabels": false
+                    },
+                    "seriesFormats": [
+                        {
+                            "multiTone": false,
+                            "color1": "99CC00",
+                            "label": "C1",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": "!M2_1",
+                                        "name": "Dollar Sales",
+                                        "fullPath": "Measures.Sales : FOLDER.Dollar Sales",
+                                        "level": "",
+                                        "dimensionName": "Measures"
+                                    },
+                                    {
+                                        "id": ":Level1:71392",
+                                        "name": "Total",
+                                        "fullPath": "Causal.Causal Permutations.Total",
+                                        "level": "",
+                                        "dimensionName": "Causal"
+                                    },
+                                    {
+                                        "id": "1226",
+                                        "name": "Current",
+                                        "fullPath": "Periodicity.Periodicity : FOLDER.Current",
+                                        "level": "",
+                                        "dimensionName": "Periodicity"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "FF7300",
+                            "label": "C4",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": "!M2_2",
+                                        "name": "Unit Sales",
+                                        "fullPath": "Measures.Sales : FOLDER.Unit Sales",
+                                        "level": "",
+                                        "dimensionName": "Measures"
+                                    },
+                                    {
+                                        "id": ":Level1:71392",
+                                        "name": "Total",
+                                        "fullPath": "Causal.Causal Permutations.Total",
+                                        "level": "",
+                                        "dimensionName": "Causal"
+                                    },
+                                    {
+                                        "id": "1226",
+                                        "name": "Current",
+                                        "fullPath": "Periodicity.Periodicity : FOLDER.Current",
+                                        "level": "",
+                                        "dimensionName": "Periodicity"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "5AC8FA",
+                            "label": "C5",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": "!M2_59",
+                                        "name": "Base Dollar Sales",
+                                        "fullPath": "Measures.Sales : FOLDER.Base Dollar Sales",
+                                        "level": "",
+                                        "dimensionName": "Measures"
+                                    },
+                                    {
+                                        "id": ":Level1:71392",
+                                        "name": "Total",
+                                        "fullPath": "Causal.Causal Permutations.Total",
+                                        "level": "",
+                                        "dimensionName": "Causal"
+                                    },
+                                    {
+                                        "id": "1226",
+                                        "name": "Current",
+                                        "fullPath": "Periodicity.Periodicity : FOLDER.Current",
+                                        "level": "",
+                                        "dimensionName": "Periodicity"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        }
+                    ],
+                    "overRideSeries": [
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R1",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506762:3506881",
+                                        "name": "DEPT-BEVERAGES",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-BEVERAGES",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R2",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506915:3506881",
+                                        "name": "DEPT-FROZEN",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-FROZEN",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R3",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506929:3506881",
+                                        "name": "DEPT-GENERAL FOOD",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-GENERAL FOOD",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R4",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506975:3506881",
+                                        "name": "DEPT-LIQUOR",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-LIQUOR",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R5",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3507060:3506881",
+                                        "name": "DEPT-REFRIGERATED",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.EDIBLE.DEPT-REFRIGERATED",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R6",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506760:3506999",
+                                        "name": "DEPT-BEAUTY",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-BEAUTY",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R7",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506930:3506999",
+                                        "name": "DEPT-GENERAL MERCHANDISE",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-GENERAL MERCHANDISE",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R8",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506945:3506999",
+                                        "name": "DEPT-HEALTH",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HEALTH",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R9",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3506947:3506999",
+                                        "name": "DEPT-HOME CARE",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-HOME CARE",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        },
+                        {
+                            "multiTone": false,
+                            "color1": "",
+                            "label": "R10",
+                            "position1": "3",
+                            "position2": "103",
+                            "tuple": {
+                                "members": [
+                                    {
+                                        "id": ":Department:4527492:3507122:3506999",
+                                        "name": "DEPT-TOBACCO",
+                                        "fullPath": "Product.Standard Hierarchy.TOTAL STORE.NON EDIBLE.DEPT-TOBACCO",
+                                        "dimensionName": "Product"
+                                    }
+                                ]
+                            },
+                            "isCustomColor": false
+                        }
+                    ],
+                    "neck": {
+                        "height": "30",
+                        "width": "40"
+                    }
+                },
+                "trendLines": {
+                    "displayMedian": "false",
+                    "displayResidual": "false",
+                    "displayTrendLine": "false",
+                    "displayAverage": "false"
+                },
+                "legend": {
+                    "displayCommonLegend": "false",
+                    "display": "true",
+                    "displayBorder": "true",
+                    "wrapLegendText": "false",
+                    "legendStyle": {
+                        "fontStyle": "Regular",
+                        "fontSize": "9",
+                        "fontColor": "000000",
+                        "text": "",
+                        "placement": "bottom"
+                    },
+                    "isReverse": "",
+                    "isEqualWidths": "true",
+                    "verticalGap": 0,
+                    "horizontalGap": 10,
+                    "showColorRules": false
+                },
+                "axes": {
+                    "xaxis": {
+                        "axisTitle": {
+                            "text": "",
+                            "displayTitle": "false",
+                            "fontSize": "9",
+                            "fontColor": "#",
+                            "placement": "",
+                            "fontType": "",
+                            "textExpression": "",
+                            "expressionValueMap": {}
+                        },
+                        "axisLabel": {
+                            "displayLabel": "true",
+                            "displayAxisLines": "true",
+                            "displayTicks": "true",
+                            "orientation": "horizontal",
+                            "customAngleValue": "0",
+                            "wrapLabel": "false",
+                            "wrapLabelToRow": 2,
+                            "fontStyle": "Regular",
+                            "fontSize": "9",
+                            "fontColor": "",
+                            "fontType": "",
+                            "formatMaskName": "",
+                            "formatMaskValue": "",
+                            "reverseOrder": false,
+                            "smoothLine": "",
+                            "autoRotateCount": "1",
+                            "showMinValue": "",
+                            "frequency": "4",
+                            "nestedLabels": false,
+                            "isShowImage": false
+                        },
+                        "axisScale": {
+                            "intervalCount": 5,
+                            "autoScale": false,
+                            "minScale": 0,
+                            "maxScale": 0,
+                            "dynamicScale": false,
+                            "dynamicScaleValue": "",
+                            "showAs": "column",
+                            "isInverted": "",
+                            "invertLabels": "",
+                            "linePattern": "solid",
+                            "commonScale": false
+                        },
+                        "axisMarker": "round",
+                        "markerSize": 8,
+                        "lineThickness": 2
+                    },
+                    "yaxis": {
+                        "axisTitle": {
+                            "text": "",
+                            "displayTitle": "false",
+                            "fontSize": "9",
+                            "fontColor": "#",
+                            "placement": "",
+                            "fontType": "",
+                            "textExpression": "",
+                            "expressionValueMap": {}
+                        },
+                        "axisLabel": {
+                            "displayLabel": "true",
+                            "displayAxisLines": "true",
+                            "displayTicks": "true",
+                            "orientation": "horizontal",
+                            "customAngleValue": "",
+                            "wrapLabel": "false",
+                            "wrapLabelToRow": 2,
+                            "fontStyle": "Regular",
+                            "fontSize": "9",
+                            "fontColor": "",
+                            "fontType": "",
+                            "reverseOrder": false,
+                            "smoothLine": "false",
+                            "autoRotateCount": "",
+                            "showMinValue": "",
+                            "frequency": "1",
+                            "nestedLabels": false,
+                            "isShowImage": false
+                        },
+                        "valueAxis": {
+                            "gradient": false,
+                            "borderRadius": 0,
+                            "opacity": 100
+                        },
+                        "isInverted": "false",
+                        "invertLabels": "false",
+                        "annotations": [
+                            {
+                                "type": "Reference",
+                                "captionProperties": {
+                                    "label": "Line 1"
+                                },
+                                "lineProperties": {
+                                    "lineColor": "#000000",
+                                    "lineThickness": 1
+                                }
+                            },
+                            {
+                                "type": "Max",
+                                "captionProperties": {
+                                    "label": "Line 2"
+                                },
+                                "lineProperties": {
+                                    "lineColor": "#5ad427",
+                                    "lineThickness": 1
+                                }
+                            },
+                            {
+                                "type": "Min",
+                                "captionProperties": {
+                                    "label": "Line 3"
+                                },
+                                "lineProperties": {
+                                    "lineColor": "#bb000e",
+                                    "lineThickness": 1
+                                }
+                            }
+                        ],
+                        "baseValue": 0
+                    },
+                    "x1axis": {
+                        "axisTitle": {
+                            "text": "",
+                            "displayTitle": "false",
+                            "fontSize": "9",
+                            "fontColor": "#",
+                            "placement": "",
+                            "fontType": "",
+                            "textExpression": "",
+                            "expressionValueMap": {}
+                        },
+                        "axisLabel": {
+                            "displayLabel": "true",
+                            "displayAxisLines": "false",
+                            "displayTicks": "false",
+                            "orientation": "horizontal",
+                            "customAngleValue": "",
+                            "wrapLabel": "false",
+                            "wrapLabelToRow": 0,
+                            "fontStyle": "",
+                            "fontSize": "9",
+                            "fontColor": "",
+                            "fontType": "",
+                            "formatMaskName": "",
+                            "formatMaskValue": "",
+                            "reverseOrder": false,
+                            "smoothLine": "true",
+                            "autoRotateCount": "",
+                            "showMinValue": "",
+                            "frequency": "1",
+                            "nestedLabels": false,
+                            "isShowImage": false
+                        },
+                        "valueAxis": {
+                            "gradient": false,
+                            "borderRadius": 0,
+                            "opacity": 66
+                        },
+                        "axisScale": {
+                            "intervalCount": 5,
+                            "autoScale": false,
+                            "minScale": 0,
+                            "maxScale": 0,
+                            "dynamicScale": false,
+                            "dynamicScaleValue": "",
+                            "showAs": "line",
+                            "isInverted": "",
+                            "invertLabels": "",
+                            "linePattern": "dotted",
+                            "commonScale": true
+                        },
+                        "axisMarker": "diamond",
+                        "markerSize": 4,
+                        "lineThickness": 2,
+                        "baseValue": 0
+                    }
+                },
+                "chartLayout": {
+                    "pageaxis": [],
+                    "xaxis": [
+                        [
+                            "C1",
+                            "C2",
+                            "C3"
+                        ]
+                    ],
+                    "hidden": [],
+                    "legend": [
+                        [
+                            "C1",
+                            "C2",
+                            "C3"
+                        ],
+                        [
+                            "C4",
+                            "C2",
+                            "C3"
+                        ],
+                        [
+                            "C5",
+                            "C2",
+                            "C3"
+                        ]
+                    ],
+                    "yaxis": [
+                        [
+                            "R1"
+                        ],
+                        [
+                            "R2"
+                        ],
+                        [
+                            "R3"
+                        ],
+                        [
+                            "R4"
+                        ],
+                        [
+                            "R5"
+                        ],
+                        [
+                            "R6"
+                        ],
+                        [
+                            "R7"
+                        ],
+                        [
+                            "R8"
+                        ],
+                        [
+                            "R9"
+                        ],
+                        [
+                            "R10"
+                        ]
+                    ],
+                    "x1axis": [
+                        [
+                            "C4",
+                            "C2",
+                            "C3"
+                        ],
+                        [
+                            "C5",
+                            "C2",
+                            "C3"
+                        ]
+                    ]
+                },
+                "chartConfiguaration": {
+                    "chartDisplayType": "none"
+                },
+                "chartData": [
+                    {
+                        "uid": "R10",
+                        "xid": "0",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "1.6897753476471462E9",
+                                "fmtdval": "$1,689,775,348"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "2.572130120335447E8",
+                                "fmtdval": "257,213,012"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "1.6673524340782335E9",
+                                "fmtdval": "$1,667,352,434"
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R9",
+                        "xid": "1",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "6.105882690619209E8",
+                                "fmtdval": "$610,588,269"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "1.2591749550898516E8",
+                                "fmtdval": "125,917,496"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "5.664881723759145E8",
+                                "fmtdval": "$566,488,172"
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R8",
+                        "xid": "2",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "1.389012943327898E9",
+                                "fmtdval": "$1,389,012,943"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "1.854421268640483E8",
+                                "fmtdval": "185,442,127"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "1.2291623508901062E9",
+                                "fmtdval": "$1,229,162,351"
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R7",
+                        "xid": "3",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "1.6636175791860547E9",
+                                "fmtdval": "$1,663,617,579"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "3.407071917343366E8",
+                                "fmtdval": "340,707,192"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "1.5847068987068777E9",
+                                "fmtdval": "$1,584,706,899"
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R6",
+                        "xid": "4",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "7.798651185419086E8",
+                                "fmtdval": "$779,865,119"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "1.4778551035363936E8",
+                                "fmtdval": "147,785,510"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "6.982011848699203E8",
+                                "fmtdval": "$698,201,185"
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R5",
+                        "xid": "5",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "2.3138750694875655E9",
+                                "fmtdval": "$2,313,875,069"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "7.198311412981602E8",
+                                "fmtdval": "719,831,141"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "2.1831805717250867E9",
+                                "fmtdval": "$2,183,180,572"
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R4",
+                        "xid": "6",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "1.2438800476546452E9",
+                                "fmtdval": "$1,243,880,048"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "1.514696852791591E8",
+                                "fmtdval": "151,469,685"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "1.1538611451483843E9",
+                                "fmtdval": "$1,153,861,145"
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R3",
+                        "xid": "7",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "4.228103030310774E9",
+                                "fmtdval": "$4,228,103,030"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "1.7119995500194252E9",
+                                "fmtdval": "1,711,999,550"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "3.848405671922672E9",
+                                "fmtdval": "$3,848,405,672"
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R2",
+                        "xid": "8",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "1.273574548693038E9",
+                                "fmtdval": "$1,273,574,549"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "3.2829662519238514E8",
+                                "fmtdval": "328,296,625"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "1.1714660700229585E9",
+                                "fmtdval": "$1,171,466,070"
+                            }
+                        ]
+                    },
+                    {
+                        "uid": "R1",
+                        "xid": "9",
+                        "bin": [
+                            {
+                                "lid": "0",
+                                "val": "2.083315699381399E9",
+                                "fmtdval": "$2,083,315,699"
+                            },
+                            {
+                                "lid": "1",
+                                "val": "8.051813973518394E8",
+                                "fmtdval": "805,181,397"
+                            },
+                            {
+                                "lid": "2",
+                                "val": "1.82405320385644E9",
+                                "fmtdval": "$1,824,053,204"
+                            }
+                        ]
+                    }
+                ],
+                "margin": {
+                    "autoMargin": "true",
+                    "bottom": "20",
+                    "left": "20",
+                    "right": "20",
+                    "top": "20"
+                },
+                "threeD": {
+                    "angle": "0",
+                    "depth3D": "0"
+                },
+                "drillOnDimension": "",
+                "negativeColor": {
+                    "fontColor": ""
+                },
+                "lineWidth": 0,
+                "useNegativeColorIfDown": "false",
+                "numberPrecision": {
+                    "audienceTemplate": "false",
+                    "axis": "2",
+                    "default": "true",
+                    "label": "2",
+                    "tooltip": "2"
+                },
+                "filterSelectedMembers": [],
+                "overlapBars": true,
+                "reverseOrder": true,
+                "plotAsDataTable": "false",
+                "showTableBorder": "false",
+                "hasPlotOtions": true,
+                "decomTreeConfig": {},
+                "background": {
+                    "color": "",
+                    "imageURL": "",
+                    "opacity": 100,
+                    "margin": 0
+                },
+                "labels": {
+                    "label": "",
+                    "font": "",
+                    "size": 14,
+                    "color": "",
+                    "positionX": "5",
+                    "positionY": "5",
+                    "labelExpression": "",
+                    "expressionValueMap": {}
+                },
+                "categoryAxis": {
+                    "labelsInside": false
+                },
+                "valueAxis": {
+                    "gradient": false,
+                    "labelsInside": false,
+                    "labelsPosition": "Center",
+                    "borderRadius": 0,
+                    "opacity": 100
+                },
+                "chartMargin": 0,
+                "shadow": "false",
+                "scrollBar": "false",
+                "cursor": "false",
+                "runTimeOptions": {
+                    "applySort": true,
+                    "switchLegend": true,
+                    "switchVisualizer": true
+                },
+                "benchmark": false,
+                "alignZeroAxes": false,
+                "applyGridFormat": false,
+                "overrideMemberFormat": false,
+                "type": "dualaxishorizontalbar",
+                "runTimeVisIndex": 0
+            },
+            {
+                "gridLayout": {
+                    "rowaxis": [
+                        "Product"
+                    ],
+                    "columnaxis": [
+                        "Measures",
+                        "Causal",
+                        "Periodicity"
+                    ],
+                    "pageaxis": [
+                        "Geography",
+                        "Time"
+                    ]
+                },
+                "flattenedColumnHeader": {
+                    "C1;C2;C3": "$",
+                    "C4;C2;C3": "Unit Sales",
+                    "C5;C2;C3": "Base $"
+                },
+                "gridPageInfo": {
+                    "currentRowPageNum": 1,
+                    "currentColPageNum": 1,
+                    "totalRowPage": 1,
+                    "totalColPage": 1,
+                    "rowPerPage": 250,
+                    "colPerPage": 2147483647
+                },
+                "type": "grid",
+                "runTimeVisIndex": 0
+            }
+        ]
+    }
+}
